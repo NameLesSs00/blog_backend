@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import path from 'path';
 
 const URL = 'http://localhost:3000';
-
+//test
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
